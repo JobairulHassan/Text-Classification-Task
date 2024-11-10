@@ -84,6 +84,10 @@ Throughout the training process, several improvements were implemented based on 
     images may still limit the model's ability to generalize to unseen data. Future work
     could involve collecting more data or using larger datasets.
 
-## 5. Realtime Fabric Detection and Classification Demo
+## 5. Fabric Detection and Classification Demo
 
-https://github.com/user-attachments/assets/b3a18149-6047-461f-9d6f-b9494b622122
+![Acr2_png rf b74f157fa82b42102a129b6537ca45b1](https://github.com/user-attachments/assets/cb9e69e9-8afc-4046-82e7-d3a5c4e99cd1)
+![D46_png rf 7cf0fb6afcabbbe9884b958b9392e0aa](https://github.com/user-attachments/assets/b615bf1d-cefa-4968-a498-f9658e98fc51)
+
+![l40_png rf caed1214e7a26430048613bd76ae7bd1](https://github.com/user-attachments/assets/25c75893-6426-479d-a062-5cc4dbadc6cf)
+![N90_png rf 229f00e391ab3e5a8afe1c82d492b4c1](https://github.com/user-attachments/assets/e74f56e2-a7cf-4e98-a903-74916ef201bc)
