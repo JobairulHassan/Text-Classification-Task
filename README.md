@@ -33,7 +33,7 @@ These augmentations increased the effective size of the training dataset and pro
 
 ### 2.1 YOLOv11
 
-The model used for this task was based on the** YOLO (You Only Look Once) architecture**, specifically YOLOv11. YOLO is a real-time object detection system known for its speed and accuracy. The architecture includes:
+The model used for this task was based on the **YOLO (You Only Look Once) architecture** , specifically YOLOv11. YOLO is a real-time object detection system known for its speed and accuracy. The architecture includes:
 
 - **Backbone:** A deep convolutional neural network that extracts features from the input images.
 - **Neck:** Combines feature maps from different layers to enhance the detection performance across various scales.
@@ -61,17 +61,9 @@ model.train(data="..\\fabric3\\data.yaml", epochs = 65 , device = 0)
 
 To evaluate the performance of the trained YOLO model, the following metrics were calculated:
 
-- **Mean Average Precision (mAP):** A critical metric for object detection that measures
-    the accuracy of the model across different IoU (Intersection over Union) thresholds. A
-    higher mAP indicates better detection performance. In the validation data the result
-    mAP.5 value is **0.921** suggests that the mean average precision at an IoU threshold of
-    0.5 is **92.1%**.
-- **Precision and Recall:** These metrics were calculated to provide insight into the model's
-    accuracy (precision) and its ability to identify all relevant instances (recall). In the test
-    data total 146 instances are correctly detected out of 175 images. The **precision** value
-    of 0.887 indicates that approximately **88.7%** of the predictions made by the model were
-    correct, and **recall** of 0.79 shows that the model successfully detected **79%** of the actual
-    instances.
+- **Mean Average Precision (mAP):** A higher mAP indicates better detection performance. In the test data the result is **92.1%**.
+- **Precision and Recall:** In the test data total 146 instances are correctly detected out of 175 images. The **precision** value
+    of 0.887 indicates that approximately **88.7%** of the predictions made by the model were correct, and **recall** of 0.79 shows that the model successfully detected **79%** of the actual instances.
 
 ### 3.2 Improvements Made
 
